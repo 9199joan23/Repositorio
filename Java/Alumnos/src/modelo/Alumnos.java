@@ -66,4 +66,15 @@ public class Alumnos {
         return "Alumnos{" + "nombre=" + nombre + ", apellido=" + apellido + '}';
     }
     
+    
+    
+    public double mediaAritmetica(ArrayList<Asignatura>Listasignatura){
+        double media=0;
+       for(Asignatura  aux:Listasignatura){
+       media = media+aux.getNota();
+       }
+       media=media/Listasignatura.size();
+       return media;
+    }
+    
 }

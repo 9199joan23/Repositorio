@@ -4,8 +4,8 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/9199.joan23/Documents/NetBeansProjects/Alumnos/src/alumnos/Main.java</file>
-            <file>file:/C:/Users/9199.joan23/Documents/NetBeansProjects/Alumnos/src/alumnos/Alumnos.java</file>
-            <file>file:/C:/Users/9199.joan23/Documents/NetBeansProjects/Alumnos/src/alumnos/Asignatura.java</file>
+            <file>file:/C:/Users/9199.joan23/Documents/NetBeansProjects/Alumnos/src/modelo/Asignatura.java</file>
+            <file>file:/C:/Users/9199.joan23/Documents/NetBeansProjects/Alumnos/src/modelo/Alumnos.java</file>
         </group>
     </open-files>
 </project-private>

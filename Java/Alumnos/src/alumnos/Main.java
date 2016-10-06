@@ -28,14 +28,15 @@ public class Main {
 
         System.out.println("Introduce el apellido del alumno1");
         String apellido = entrada.nextLine();
-
+        /*
         System.out.println("Introduce la nota del alumno1");
-        double nota = entrada.nextDouble();
+        //double nota = entrada.nextDouble();
 
        // System.out.println("La nota es:" + nota);
        // String mensaje = entrada.nextLine();
 
         //Alumnos alumno1 = new Alumnos(nombre1,apellido1) ;
+        */
         Asignatura asig1 = new Asignatura("Mates");
 
         System.out.println("Introduce la nota de mates del alumno 1");
@@ -59,7 +60,7 @@ public class Main {
         System.out.println(alumno1.toString());
 
         for (Asignatura aux : alumno1.getListasignatura()) {
-
+            System.out.println("La asignatura "+aux.getNombreasig()+" tiene nota: "+aux.getNota());
         }
         /*
         //construtores por defecto
